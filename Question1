@@ -1,0 +1,23 @@
+Q1 - Project Elaboration
+
+1. CG1 HRMS Application (Enterprise Project)
+
+During my internship at CG Infinity, I worked on the internal HRMS platform, which was primarily used for staffing, employee management, and project tracking. My focus was on improving key modules like the Project Index, Resource Management Calendar, and Staffing Dashboard. I also contributed to the CSAT module, which helped measure employee satisfaction and overall retention.
+
+For the backend, I worked with .NET 8 and SQL Server, implementing APIs and workflows in a database-first architecture. On the frontend, I used Nextjs with Tailwind CSS and applied Atomic Design principles for a modular, maintainable UI.
+
+I’ve seen similar systems in the wild like SAP SuccessFactors, Workday, and Darwinbox. I approached development by breaking down requirements into small modules, designing the database and APIs first, then integrating frontend components incrementally.
+
+One interesting part of this project was when I used StackOverflow to figure out a tricky SQL window function for generating dynamic reports. At first, I copied some code, but then I debugged it line by line to understand exactly how it worked. This taught me how to effectively read and adapt solutions without blindly copying them. I also learned proper async handling in C# and improved my React hook usage for dynamic updates.
+
+2. BuildLogger (VS Code Extension)
+
+BuildLogger was a project I worked on as part of an internal hackathon. The idea was to create a VS Code extension that could track build failures, log contextual information, and provide analytics on common errors and branch-wise patterns. My role was mainly implementing the logic for real-time logging and preparing the data so it could eventually be visualized in dashboards using Power BI.
+
+Even though Firebase integration and dashboard visualization weren’t fully implemented yet, the main functionality worked locally, and we were able to showcase it. This project taught me a lot about VS Code extension APIs, error logging patterns, and how to think about real-time data collection.
+
+3. Weatherly (Personal Project)
+
+Weatherly was a personal project I built from scratch to fetch and display real-time weather information. It uses the OpenWeather API to show temperature, humidity, wind speed, and weather icons dynamically.
+
+I built it entirely in React, using hooks for real-time updates, and added Toastr notifications for input validation and error handling. This project helped me strengthen my skills in handling asynchronous API calls and building responsive UIs. Although it’s a small app, I focused on writing clean, maintainable code and making the user experience smooth.
